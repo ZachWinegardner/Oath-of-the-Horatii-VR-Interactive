@@ -3,15 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class RaiseImage : MonoBehaviour {
-
+	//This checks if you are touching the thumb pad on the Vive controller, and then checks local euler angles if they are rotated 
+	// as if you are checking a watch. This will show an image plane parented to the controller
+	
+	
 	public Transform RHand; 
 	private Vector3 RCZ; 
-	// Use this for initialization
+
+	
 	void Start () {
 
 	}
 	
-	// Update is called once per frame
 	void Update () {
 
 		
